@@ -16,6 +16,8 @@ dependencies {
     implementation group: 'javax.json.bind', name: 'javax.json.bind-api', version: '1.0'
     implementation group: 'org.eclipse', name: 'yasson', version: '2.0.1'
     implementation group: 'org.json', name: 'json', version: '20201115'
+    implementation group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.8.0'
+
 }
 
 test {
